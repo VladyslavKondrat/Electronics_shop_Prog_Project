@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/ApplicationFulfillment/">
+    <Project Path="src/Services/ApplicationFulfillment/UniTask.ApplicationFulfillment.Application/UniTask.ApplicationFulfillment.Application.csproj" />
+    <Project Path="src/Services/ApplicationFulfillment/UniTask.ApplicationFulfillment.Domain/UniTask.ApplicationFulfillment.Domain.csproj" />
+    <Project Path="src/Services/ApplicationFulfillment/UniTask.ApplicationFulfillment.Presentation/UniTask.ApplicationFulfillment.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/Services/TaskManagement/">
+    <Project Path="src/Services/TaskManagement/UniTask.TaskManagement.Application/UniTask.TaskManagement.Application.csproj" />
+    <Project Path="src/Services/TaskManagement/UniTask.TaskManagement.Domain/UniTask.TaskManagement.Domain.csproj" />
+    <Project Path="src/Services/TaskManagement/UniTask.TaskManagement.Presentation/UniTask.TaskManagement.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/Services/UserIdentity/">
+    <Project Path="src/Services/UserIdentity/UniTask.UserIdentity.Application/UniTask.UserIdentity.Application.csproj" />
+    <Project Path="src/Services/UserIdentity/UniTask.UserIdentity.Domain/UniTask.UserIdentity.Domain.csproj" />
+    <Project Path="src/Services/UserIdentity/UniTask.UserIdentity.Presentation/UniTask.UserIdentity.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/ApplicationFulfillment/">
+    <Project Path="tests/ApplicationFulfillment/UniTask.ApplicationFulfillment.Application.Tests/UniTask.ApplicationFulfillment.Application.Tests.csproj" />
+    <Project Path="tests/ApplicationFulfillment/UniTask.ApplicationFulfillment.Domain.Tests/UniTask.ApplicationFulfillment.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Tests/TaskManagement/">
+    <Project Path="tests/TaskManagement/UniTask.TaskManagement.Application.Tests/UniTask.TaskManagement.Application.Tests.csproj" />
+    <Project Path="tests/TaskManagement/UniTask.TaskManagement.Domain.Tests/UniTask.TaskManagement.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Tests/UserIdentity/">
+    <Project Path="tests/UserIdentity/UniTask.UserIdentity.Application.Tests/UniTask.UserIdentity.Application.Tests.csproj" />
+    <Project Path="tests/UserIdentity/UniTask.UserIdentity.Domain.Tests/UniTask.UserIdentity.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\bin\Debug\net10.0\UniTask.UserIdentity.Application.deps.json
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\bin\Debug\net10.0\UniTask.UserIdentity.Application.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\bin\Debug\net10.0\UniTask.UserIdentity.Application.pdb
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\bin\Debug\net10.0\UniTask.UserIdentity.Domain.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\bin\Debug\net10.0\UniTask.UserIdentity.Domain.pdb
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.AssemblyInfo.cs
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.sourcelink.json
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask..1342DF5B.Up2Date
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\refint\UniTask.UserIdentity.Application.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\UniTask.UserIdentity.Application.pdb
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Application\obj\Debug\net10.0\ref\UniTask.UserIdentity.Application.dll

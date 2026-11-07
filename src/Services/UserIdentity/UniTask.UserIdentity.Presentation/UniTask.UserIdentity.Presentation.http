@@ -1,0 +1,6 @@
+@UniTask.UserIdentity.Presentation_HostAddress = http://localhost:5129
+
+GET {{UniTask.UserIdentity.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
