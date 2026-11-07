@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniTask.ApplicationFulfillment.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0952a09d30e2ab5e4f78fbf3301f38204bc109a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aa47d6d6496379443484748f5062e8a26ad21d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniTask.ApplicationFulfillment.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniTask.ApplicationFulfillment.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
