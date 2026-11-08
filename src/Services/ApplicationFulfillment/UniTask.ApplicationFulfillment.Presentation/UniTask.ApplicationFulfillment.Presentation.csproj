@@ -15,4 +15,8 @@
     <ProjectReference Include="..\UniTask.ApplicationFulfillment.Domain\UniTask.ApplicationFulfillment.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

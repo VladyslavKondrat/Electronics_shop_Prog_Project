@@ -36,3 +36,4 @@ C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\TaskManage
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\TaskManagement\UniTask.TaskManagement.Presentation\obj\Debug\net10.0\UniTask.TaskManagement.Presentation.pdb
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\TaskManagement\UniTask.TaskManagement.Presentation\obj\Debug\net10.0\UniTask.TaskManagement.Presentation.genruntimeconfig.cache
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\TaskManagement\UniTask.TaskManagement.Presentation\obj\Debug\net10.0\ref\UniTask.TaskManagement.Presentation.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\TaskManagement\UniTask.TaskManagement.Presentation\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -36,3 +36,4 @@ C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdenti
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Presentation\obj\Debug\net10.0\UniTask.UserIdentity.Presentation.pdb
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Presentation\obj\Debug\net10.0\UniTask.UserIdentity.Presentation.genruntimeconfig.cache
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Presentation\obj\Debug\net10.0\ref\UniTask.UserIdentity.Presentation.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Presentation\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
