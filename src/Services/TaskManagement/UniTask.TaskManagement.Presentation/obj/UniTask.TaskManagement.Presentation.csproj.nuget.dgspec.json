@@ -721,9 +721,6 @@
             "projectReferences": {
               "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Application\\UniTask.TaskManagement.Application.csproj": {
                 "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Application\\UniTask.TaskManagement.Application.csproj"
-              },
-              "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Domain\\UniTask.TaskManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Domain\\UniTask.TaskManagement.Domain.csproj"
               }
             }
           }

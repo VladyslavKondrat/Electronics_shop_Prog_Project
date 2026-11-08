@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UniTask.TaskManagement.Application\UniTask.TaskManagement.Application.csproj" />
-    <ProjectReference Include="..\UniTask.TaskManagement.Domain\UniTask.TaskManagement.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

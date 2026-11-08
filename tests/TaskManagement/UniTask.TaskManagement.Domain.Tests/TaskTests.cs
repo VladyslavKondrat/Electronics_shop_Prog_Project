@@ -2,7 +2,7 @@ using Xunit;
 using UniTask.TaskManagement.Domain.Aggregates;
 using UniTask.TaskManagement.Domain.Exceptions;
 using DomainTask = UniTask.TaskManagement.Domain.Aggregates.Task;
-using DomainTaskStatus = UniTask.TaskManagement.Domain.Aggregates.TaskStatus;
+
 
 namespace UniTask.TaskManagement.Domain.Tests;
 
@@ -22,7 +22,7 @@ public class TaskTests
         Assert.Equal(taskId, task.Id);
         Assert.Equal(title, task.Title);
         Assert.Equal(description, task.Description);
-        Assert.Equal(cost, task.Cost);
+        Assert.Equal(cost, (decimal)task.Cost);
         Assert.NotNull(task.CreatedAt);
     }
 
@@ -33,7 +33,7 @@ public class TaskTests
 
         task.PublishTask();
 
-        Assert.Equal(DomainTaskStatus.Published, task.Status);
+        Assert.Equal(DomainTask.TaskStatus.Published, task.Status);
     }
 
     [Fact]
@@ -45,7 +45,7 @@ public class TaskTests
 
         task.AssignToExecutor(executorId);
 
-        Assert.Equal(DomainTaskStatus.Assigned, task.Status);
+        Assert.Equal(DomainTask.TaskStatus.Assigned, task.Status);
         Assert.Equal(executorId, task.AssignedExecutorId);
     }
 
@@ -58,7 +58,7 @@ public class TaskTests
 
         task.SubmitCompletion();
 
-        Assert.Equal(DomainTaskStatus.Completed, task.Status);
+        Assert.Equal(DomainTask.TaskStatus.Completed, task.Status);
         Assert.NotNull(task.TimeSubmitted);
     }
 
@@ -114,7 +114,7 @@ public class TaskTests
         var task = new DomainTask(Guid.NewGuid(), "Task", "Description", cost);
 
         Assert.NotNull(task);
-        Assert.Equal(cost, task.Cost);
+        Assert.Equal(cost, (decimal)task.Cost);
     }
 
     [Theory]
@@ -168,6 +168,6 @@ public class TaskTests
         var task = new DomainTask(Guid.NewGuid(), "Task", "Description", 100m);
 
         task.PublishTask();
-        Assert.Equal(DomainTaskStatus.Published, task.Status);
+        Assert.Equal(DomainTask.TaskStatus.Published, task.Status);
     }
 }

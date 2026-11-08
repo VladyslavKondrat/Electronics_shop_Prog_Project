@@ -113,8 +113,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.12",
-      "UniTask.ApplicationFulfillment.Application >= 1.0.0",
-      "UniTask.ApplicationFulfillment.Domain >= 1.0.0"
+      "UniTask.ApplicationFulfillment.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -152,9 +151,6 @@
           "projectReferences": {
             "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\ApplicationFulfillment\\UniTask.ApplicationFulfillment.Application\\UniTask.ApplicationFulfillment.Application.csproj": {
               "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\ApplicationFulfillment\\UniTask.ApplicationFulfillment.Application\\UniTask.ApplicationFulfillment.Application.csproj"
-            },
-            "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\ApplicationFulfillment\\UniTask.ApplicationFulfillment.Domain\\UniTask.ApplicationFulfillment.Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\ApplicationFulfillment\\UniTask.ApplicationFulfillment.Domain\\UniTask.ApplicationFulfillment.Domain.csproj"
             }
           }
         }

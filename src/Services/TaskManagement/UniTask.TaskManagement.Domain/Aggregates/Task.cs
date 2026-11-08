@@ -1,23 +1,44 @@
+using UniTask.TaskManagement.Domain.Entities;
 using UniTask.TaskManagement.Domain.Exceptions;
+using UniTask.TaskManagement.Domain.ValueObjects;
 
 namespace UniTask.TaskManagement.Domain.Aggregates;
-
-public class Task
+public sealed class Task
 {
-    private const decimal MinTaskCost = 0.01m;
-    private const decimal MaxTaskCost = 100000m;
+    public enum TaskStatus
+    {
+        Draft = 0,
+        Published = 1,
+        Assigned = 2,
+        Completed = 3,
+        Cancelled = 4
+    }
+
     private const int MaxHoursAfterAssignment = 24;
+    private readonly List<Payment> _payments = new();
 
     public Guid Id { get; }
     public string Title { get; private set; }
     public string Description { get; private set; }
-    public decimal Cost { get; private set; }
+
+    /// <summary>
+    /// Cost as a value object (immutable, encapsulates validation).
+    /// </summary>
+    public TaskCost Cost { get; private set; }
+
     public TaskStatus Status { get; private set; }
     public Guid? AssignedExecutorId { get; private set; }
     public DateTime CreatedAt { get; }
     public DateTime? PublishedAt { get; private set; }
     public DateTime? AssignedAt { get; private set; }
     public DateTime? TimeSubmitted { get; private set; }
+
+    /// <summary>
+    /// Read-only view of payments within this aggregate.
+    /// External code cannot modify the collection directly; all mutations go through the root.
+    /// Internal visibility since Payment is an internal entity.
+    /// </summary>
+    internal IReadOnlyCollection<Payment> Payments => _payments.AsReadOnly();
 
     public Task(Guid id, string title, string description, decimal cost)
     {
@@ -30,12 +51,10 @@ public class Task
         if (string.IsNullOrWhiteSpace(description))
             throw new ArgumentException("Task description cannot be empty.", nameof(description));
 
-        ValidateCost(cost);
-
         Id = id;
         Title = title.Trim();
         Description = description.Trim();
-        Cost = cost;
+        Cost = new TaskCost(cost);
         Status = TaskStatus.Draft;
         CreatedAt = DateTime.UtcNow;
     }
@@ -93,15 +112,31 @@ public class Task
 
     public void UpdateCost(decimal newCost)
     {
-        ValidateCost(newCost);
-        Cost = newCost;
+        Cost = new TaskCost(newCost);
     }
 
-    private static void ValidateCost(decimal cost)
+    /// <summary>
+    /// Records a payment for this task.
+    /// Only the aggregate root can create Payment internal entities.
+    /// </summary>
+    public void RecordPayment(Guid executorId)
     {
-        if (cost < MinTaskCost || cost > MaxTaskCost)
+        if (executorId == Guid.Empty)
+            throw new ArgumentException("Executor ID cannot be empty.", nameof(executorId));
+
+        var payment = new Payment(executorId, Cost);
+        _payments.Add(payment);
+    }
+
+    /// <summary>
+    /// Marks all unprocessed payments as processed.
+    /// Enforces that only the root can mutate Payment state.
+    /// </summary>
+    public void ProcessPayments()
+    {
+        foreach (var payment in _payments.Where(p => !p.IsProcessed))
         {
-            throw new InvalidCostException(cost);
+            payment.MarkAsProcessed();
         }
     }
 

@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UniTask.UserIdentity.Application\UniTask.UserIdentity.Application.csproj" />
-    <ProjectReference Include="..\UniTask.UserIdentity.Domain\UniTask.UserIdentity.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
