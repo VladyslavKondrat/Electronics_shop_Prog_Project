@@ -721,9 +721,6 @@
             "projectReferences": {
               "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\UserIdentity\\UniTask.UserIdentity.Application\\UniTask.UserIdentity.Application.csproj": {
                 "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\UserIdentity\\UniTask.UserIdentity.Application\\UniTask.UserIdentity.Application.csproj"
-              },
-              "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\UserIdentity\\UniTask.UserIdentity.Domain\\UniTask.UserIdentity.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\UserIdentity\\UniTask.UserIdentity.Domain\\UniTask.UserIdentity.Domain.csproj"
               }
             }
           }

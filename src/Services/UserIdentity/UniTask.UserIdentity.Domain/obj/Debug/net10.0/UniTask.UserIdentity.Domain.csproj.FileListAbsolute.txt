@@ -10,3 +10,4 @@ C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdenti
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Domain\obj\Debug\net10.0\refint\UniTask.UserIdentity.Domain.dll
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Domain\obj\Debug\net10.0\UniTask.UserIdentity.Domain.pdb
 C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Domain\obj\Debug\net10.0\ref\UniTask.UserIdentity.Domain.dll
+C:\Users\user\source\repos\Electronics_shop_Prog_Project\src\Services\UserIdentity\UniTask.UserIdentity.Domain\obj\Debug\net10.0\UniTask..340A98EC.Up2Date

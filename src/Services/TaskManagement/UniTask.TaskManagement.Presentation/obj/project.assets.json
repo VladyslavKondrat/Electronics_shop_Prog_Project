@@ -113,8 +113,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.12",
-      "UniTask.TaskManagement.Application >= 1.0.0",
-      "UniTask.TaskManagement.Domain >= 1.0.0"
+      "UniTask.TaskManagement.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -152,9 +151,6 @@
           "projectReferences": {
             "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Application\\UniTask.TaskManagement.Application.csproj": {
               "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Application\\UniTask.TaskManagement.Application.csproj"
-            },
-            "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Domain\\UniTask.TaskManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Domain\\UniTask.TaskManagement.Domain.csproj"
             }
           }
         }

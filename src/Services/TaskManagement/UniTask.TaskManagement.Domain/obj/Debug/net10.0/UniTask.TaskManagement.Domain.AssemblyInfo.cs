@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniTask.TaskManagement.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0952a09d30e2ab5e4f78fbf3301f38204bc109a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+229b384d681287c1fb63b46eafee057999bd55ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniTask.TaskManagement.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniTask.TaskManagement.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
