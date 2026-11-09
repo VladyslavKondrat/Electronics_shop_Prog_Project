@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7c6OnVK0Vqo=",
+  "dgSpecHash": "ElFXO8GGuC4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\TaskManagement\\UniTask.TaskManagement.Application\\UniTask.TaskManagement.Application.csproj",
+  "projectFilePath": "/workspaces/UniTask/src/Services/TaskManagement/UniTask.TaskManagement.Application/UniTask.TaskManagement.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
