@@ -23,7 +23,8 @@ public class TaskTests
         Assert.Equal(title, task.Title);
         Assert.Equal(description, task.Description);
         Assert.Equal(cost, (decimal)task.Cost);
-        Assert.NotNull(task.CreatedAt);
+        Assert.NotEqual(default, task.CreatedAt);
+        //Assert.NotNull(task.CreatedAt);
     }
 
     [Fact]

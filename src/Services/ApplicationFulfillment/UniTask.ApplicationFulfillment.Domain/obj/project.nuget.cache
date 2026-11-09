@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuCUM+J7Cwk=",
+  "dgSpecHash": "Lg2zfpRMdyI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Electronics_shop_Prog_Project\\src\\Services\\ApplicationFulfillment\\UniTask.ApplicationFulfillment.Domain\\UniTask.ApplicationFulfillment.Domain.csproj",
+  "projectFilePath": "/workspaces/UniTask/src/Services/ApplicationFulfillment/UniTask.ApplicationFulfillment.Domain/UniTask.ApplicationFulfillment.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

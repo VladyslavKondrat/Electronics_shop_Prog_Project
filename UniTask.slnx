@@ -28,4 +28,5 @@
     <Project Path="tests/UserIdentity/UniTask.UserIdentity.Application.Tests/UniTask.UserIdentity.Application.Tests.csproj" />
     <Project Path="tests/UserIdentity/UniTask.UserIdentity.Domain.Tests/UniTask.UserIdentity.Domain.Tests.csproj" />
   </Folder>
+  <Folder Name="/User/" />
 </Solution>
