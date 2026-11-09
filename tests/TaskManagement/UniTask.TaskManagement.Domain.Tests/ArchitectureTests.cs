@@ -6,10 +6,6 @@ using DomainTask = UniTask.TaskManagement.Domain.Aggregates.Task;
 
 namespace UniTask.TaskManagement.Domain.Tests;
 
-/// <summary>
-/// Architecture tests to enforce Clean Architecture layer boundaries at runtime.
-/// These tests verify key DDD patterns are properly implemented.
-/// </summary>
 public class ArchitectureTests
 {
     [Fact]

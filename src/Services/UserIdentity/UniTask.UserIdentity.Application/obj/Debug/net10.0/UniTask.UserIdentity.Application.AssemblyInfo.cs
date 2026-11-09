@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniTask.UserIdentity.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d25f1580c7e1801f09db4d17d1faf0f058ee639")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16eb2133d071cf825fd0fcf3979db22bafb1ebfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniTask.UserIdentity.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniTask.UserIdentity.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -33,10 +33,6 @@ public sealed class Task
     public DateTime? AssignedAt { get; private set; }
     public DateTime? TimeSubmitted { get; private set; }
 
-    /// <summary>
-    /// Public read-only view of payments returning IReadOnlyCollection.
-    /// Exposes elements as object to avoid CS0053 accessibility issues while satisfying architecture tests.
-    /// </summary>
     public IReadOnlyCollection<object> Payments => (_payments ?? new List<Payment>()).Cast<object>().ToList().AsReadOnly();
 
     public Task()
