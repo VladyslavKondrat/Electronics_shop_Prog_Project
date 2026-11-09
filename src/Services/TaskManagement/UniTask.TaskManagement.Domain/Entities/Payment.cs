@@ -3,10 +3,7 @@ using UniTask.TaskManagement.Domain.ValueObjects;
 
 namespace UniTask.TaskManagement.Domain.Entities;
 
-/// <summary>
-/// Represents a payment line item within a Task aggregate.
-/// Payment is an internal entity (not an aggregate root) with local identity.
-/// </summary>
+
 internal sealed class Payment
 {
     public Guid Id { get; }
